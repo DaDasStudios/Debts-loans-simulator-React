@@ -1,0 +1,15 @@
+.hide {
+    max-height: 0px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.faded {
+    transition: max-height 400ms ease-in-out, opacity 200ms ease-in-out;
+}
+
+.show {
+    max-height: 450px;
+    pointer-events: all;
+    opacity: 1;
+}
